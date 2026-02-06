@@ -8,7 +8,6 @@ Route::get('/halo', function () {
 Route::get('/tombol', function () {
     return view('button');
 });
-
 Route::get('/karaoke', function () {
     return view('karaoke');
 });
